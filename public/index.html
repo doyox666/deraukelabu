@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website resmi Derau Kelabu - Grup band Pop Rock/Alternative asal Jakarta yang dibentuk pada tahun 2025. Dengarkan lagu terbaru, lihat jadwal manggung, dan hubungi kami di sini.">
+    <title>Derau Kelabu | Official Website</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#home" class="logo" id="header-logo">
+                <img src="assets/derau.jpeg" alt="Derau Kelabu Logo" class="logo-img">
+                DERAU<span>KELABU</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation" id="nav-toggle-btn">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu-wrapper">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">Tentang</a></li>
+                    <li><a href="#personnel" class="nav-link">Personil</a></li>
+                    <li><a href="#music" class="nav-link">Musik</a></li>
+                    <li><a href="#gigs" class="nav-link">Jadwal</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <p class="hero-subtitle">SEBUAH GAUNG DARI JAKARTA</p>
+            <h1 class="hero-title">DERAU KELABU</h1>
+            <p class="hero-tagline">Pop Rock / Alternative // Est. 2025</p>
+            <div class="hero-actions">
+                <a href="#music" class="btn btn-primary" id="btn-listen-now">
+                    <svg viewBox="0 0 24 24" class="icon-svg"><path d="M8 5v14l11-7z"/></svg> DENGARKAN MUSIK
+                </a>
+                <a href="#contact" class="btn btn-secondary" id="btn-book-now">BOOKING BAND</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="mouse-wheel"></span>
+            <span class="scroll-text">Scroll ke Bawah</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="section-header">
+                        <span class="section-tag">FILOSOFI & KISAH</span>
+                        <h2 class="section-title">Tentang Derau Kelabu</h2>
+                    </div>
+                    <p class="about-text">
+                        Lahir di tengah hiruk-pikuk Jakarta pada tahun 2025, <strong>Derau Kelabu</strong> memadukan ambivalensi kota metropolitan ke dalam harmoni musik. Nama "Derau Kelabu" terinspirasi dari <em>grey noise</em>—sebuah frekuensi suara yang seimbang, menenangkan namun menyimpan distorsi intensitas yang kaya.
+                    </p>
+                    <p class="about-text">
+                        Melalui genre yang kami sebut pop rock alternatif, kami menjembatani kelembutan melodi pop, kemegahan ambient synthesizer, dan kekuatan hentakan musik rock. Kami bernyanyi tentang eksistensi, kesunyian urban, dan harapan yang samar di balik langit abu-abu Jakarta.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2025</span>
+                            <span class="stat-label">Dibentuk</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Personil</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">Jakarta</span>
+                            <span class="stat-label">Kota Asal</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image-wrapper">
+                    <img src="assets/band.jpg" alt="Derau Kelabu Group Photo" class="about-image" id="about-band-photo">
+                    <div class="about-image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personnel Section -->
+    <section id="personnel" class="personnel-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">DI BALIK INSTRUMEN</span>
+                <h2 class="section-title">5 Jiwa, Satu Frekuensi</h2>
+            </div>
+            
+            <div class="personnel-grid">
+                <!-- Member 1: Piyan -->
+                <div class="member-card" id="member-piyan">
+                    <div class="member-bg-glow"></div>
+                    <div class="member-info">
+                        <span class="member-role">Vokal Utama</span>
+                        <h3 class="member-name">Piyan</h3>
+                        <p class="member-desc">Vokalis utama dengan karakter vokal rock yang tebal dan penuh penghayatan, menghidupkan setiap lirik Derau Kelabu.</p>
+                        <div class="member-quote">"Musik adalah cara terbaik menyuarakan kesunyian hati."</div>
+                    </div>
+                </div>
+
+                <!-- Member 2: Danang -->
+                <div class="member-card" id="member-danang">
+                    <div class="member-bg-glow"></div>
+                    <div class="member-info">
+                        <span class="member-role">Gitar Utama</span>
+                        <h3 class="member-name">Danang</h3>
+                        <p class="member-desc">Pencipta riff distorsi ikonik dan melodi gitar rock yang tajam, memberikan energi rock sejati.</p>
+                        <div class="member-quote">"Biarkan distorsi gitar menyuarakan apa yang tak terucapkan."</div>
+                    </div>
+                </div>
+
+                <!-- Member 3: Ichal -->
+                <div class="member-card" id="member-ichal">
+                    <div class="member-bg-glow"></div>
+                    <div class="member-info">
+                        <span class="member-role">Gitar</span>
+                        <h3 class="member-name">Ichal</h3>
+                        <p class="member-desc">Harmonisasi soundscape gitar yang solid, mengawinkan tempo pop-rock dengan efek delay ambient yang melayang.</p>
+                        <div class="member-quote">"Setiap melodi gitar adalah warna di atas kanvas abu-abu."</div>
+                    </div>
+                </div>
+
+                <!-- Member 4: Agung -->
+                <div class="member-card" id="member-agung">
+                    <div class="member-bg-glow"></div>
+                    <div class="member-info">
+                        <span class="member-role">Bass</span>
+                        <h3 class="member-name">Agung</h3>
+                        <p class="member-desc">Denyut nadi aransemen lagu. Groove bass-nya tebal dan dinamis, menjaga pondasi tempo lagu tetap bertenaga.</p>
+                        <div class="member-quote">"Bass adalah perekat ketukan drum dan harmoni gitar."</div>
+                    </div>
+                </div>
+
+                <!-- Member 5: Arki -->
+                <div class="member-card" id="member-arki">
+                    <div class="member-bg-glow"></div>
+                    <div class="member-info">
+                        <span class="member-role">Drum</span>
+                        <h3 class="member-name">Arki</h3>
+                        <p class="member-desc">Tenaga penggerak utama. Ketukannya bertenaga namun presisi, menjaga detak tempo perjalanan musik Derau Kelabu.</p>
+                        <div class="member-quote">"Setiap detak drum adalah tanda kehidupan lagu kami."</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="music-section">
+        <div class="container">
+            <div class="music-grid">
+                <div class="music-player-container">
+                    <div class="section-header">
+                        <span class="section-tag">RILISAN TERBARU</span>
+                        <h2 class="section-title">Dengarkan Derau</h2>
+                    </div>
+                    
+                    <!-- Interactive Custom Audio Player -->
+                    <div class="custom-player" id="audio-player-wrapper">
+                        <div class="player-now-playing">
+                            <div class="track-art" id="player-track-art">
+                                <div class="visualizer-bars" id="visualizer-container">
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                </div>
+                            </div>
+                            <div class="track-details">
+                                <h3 class="player-track-title" id="player-track-title">Derau Kelabu</h3>
+                                <p class="player-track-artist">Derau Kelabu - Single</p>
+                            </div>
+                        </div>
+
+                        <!-- Progress Bar -->
+                        <div class="player-progress-container" id="progress-container">
+                            <div class="player-progress-bar" id="progress-bar"></div>
+                            <div class="player-time">
+                                <span id="current-time">0:00</span>
+                                <span id="total-duration">6:12</span>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <div class="player-controls">
+                            <button class="player-btn" id="btn-prev" aria-label="Lagu sebelumnya">
+                                <svg viewBox="0 0 24 24" class="control-icon"><path d="M6 6h2v12H6zm3.5 6L18 18V6z"/></svg>
+                            </button>
+                            <button class="player-btn btn-play-pause" id="btn-play-pause" aria-label="Putar / Jeda">
+                                <svg viewBox="0 0 24 24" class="control-icon play-icon" id="play-icon"><path d="M8 5v14l11-7z"/></svg>
+                                <svg viewBox="0 0 24 24" class="control-icon pause-icon hide" id="pause-icon"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                            </button>
+                            <button class="player-btn" id="btn-next" aria-label="Lagu berikutnya">
+                                <svg viewBox="0 0 24 24" class="control-icon"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+                            </button>
+                            
+                            <div class="volume-container">
+                                <button class="player-btn volume-btn" id="btn-volume" aria-label="Mute / Unmute">
+                                    <svg viewBox="0 0 24 24" class="control-icon" id="volume-icon-svg"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+                                </button>
+                                <input type="range" class="volume-slider" id="volume-slider" min="0" max="1" step="0.1" value="0.8">
+                            </div>
+                        </div>
+                        
+                        <!-- Hidden Audio Element -->
+                        <audio id="main-audio" src=""></audio>
+                    </div>
+                </div>
+
+                <!-- Playlist -->
+                <div class="playlist-container">
+                    <h3 class="playlist-header">Daftar Putar</h3>
+                    <ul class="playlist-list" id="playlist-list-wrapper">
+                        <li class="playlist-item active" data-index="0" data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" data-duration="6:12">
+                            <span class="playlist-track-num">01</span>
+                            <div class="playlist-track-info">
+                                <span class="playlist-track-name">Derau Kelabu</span>
+                                <span class="playlist-track-album">Single Utama</span>
+                            </div>
+                            <span class="playlist-track-time">6:12</span>
+                        </li>
+                        <li class="playlist-item" data-index="1" data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" data-duration="7:05">
+                            <span class="playlist-track-num">02</span>
+                            <div class="playlist-track-info">
+                                <span class="playlist-track-name">Gema Sunyi</span>
+                                <span class="playlist-track-album">EP Gema Sunyi</span>
+                            </div>
+                            <span class="playlist-track-time">7:05</span>
+                        </li>
+                        <li class="playlist-item" data-index="2" data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" data-duration="5:44">
+                            <span class="playlist-track-num">03</span>
+                            <div class="playlist-track-info">
+                                <span class="playlist-track-name">Jakarta Malam Hari</span>
+                                <span class="playlist-track-album">EP Gema Sunyi</span>
+                            </div>
+                            <span class="playlist-track-time">5:44</span>
+                        </li>
+                        <li class="playlist-item" data-index="3" data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" data-duration="5:02">
+                            <span class="playlist-track-num">04</span>
+                            <div class="playlist-track-info">
+                                <span class="playlist-track-name">Distorsi Jiwa</span>
+                                <span class="playlist-track-album">Demo Room Session</span>
+                            </div>
+                            <span class="playlist-track-time">5:02</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gigs Section -->
+    <section id="gigs" class="gigs-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">JADWAL MANGGUNG</span>
+                <h2 class="section-title">Tur & Panggung</h2>
+            </div>
+            
+            <div class="gigs-list">
+                <!-- Gig 1 -->
+                <div class="gig-row">
+                    <div class="gig-date-box">
+                        <span class="gig-day">25</span>
+                        <span class="gig-month">JUL</span>
+                        <span class="gig-year">2026</span>
+                    </div>
+                    <div class="gig-details">
+                        <h3 class="gig-title">Jakarta Indie Sounds 2026</h3>
+                        <p class="gig-venue">
+                            <svg viewBox="0 0 24 24" class="icon-svg-small"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg> 
+                            GBK Sports Complex, Senayan, Jakarta
+                        </p>
+                    </div>
+                    <div class="gig-cta">
+                        <a href="#" class="btn btn-outline gig-ticket-btn" data-event="Jakarta Indie Sounds">Beli Tiket</a>
+                    </div>
+                </div>
+
+                <!-- Gig 2 -->
+                <div class="gig-row">
+                    <div class="gig-date-box">
+                        <span class="gig-day">08</span>
+                        <span class="gig-month">AGU</span>
+                        <span class="gig-year">2026</span>
+                    </div>
+                    <div class="gig-details">
+                        <h3 class="gig-title">Synchronize Festival 2026</h3>
+                        <p class="gig-venue">
+                            <svg viewBox="0 0 24 24" class="icon-svg-small"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg> 
+                            Gambir Expo Kemayoran, Jakarta
+                        </p>
+                    </div>
+                    <div class="gig-cta">
+                        <span class="badge badge-warning">Segera Hadir</span>
+                    </div>
+                </div>
+
+                <!-- Gig 3 -->
+                <div class="gig-row">
+                    <div class="gig-date-box">
+                        <span class="gig-day">19</span>
+                        <span class="gig-month">SEP</span>
+                        <span class="gig-year">2026</span>
+                    </div>
+                    <div class="gig-details">
+                        <h3 class="gig-title">Derau Urban Tour: Showcase Bandung</h3>
+                        <p class="gig-venue">
+                            <svg viewBox="0 0 24 24" class="icon-svg-small"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg> 
+                            Spasial, Bandung
+                        </p>
+                    </div>
+                    <div class="gig-cta">
+                        <a href="#" class="btn btn-outline gig-ticket-btn" data-event="Showcase Bandung">Beli Tiket</a>
+                    </div>
+                </div>
+
+                <!-- Gig 4 -->
+                <div class="gig-row">
+                    <div class="gig-date-box">
+                        <span class="gig-day">03</span>
+                        <span class="gig-month">OKT</span>
+                        <span class="gig-year">2026</span>
+                    </div>
+                    <div class="gig-details">
+                        <h3 class="gig-title">Joyland Festival 2026</h3>
+                        <p class="gig-venue">
+                            <svg viewBox="0 0 24 24" class="icon-svg-small"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg> 
+                            GBK Archery Field, Jakarta
+                        </p>
+                    </div>
+                    <div class="gig-cta">
+                        <a href="#" class="btn btn-outline gig-ticket-btn" data-event="Joyland Festival">Beli Tiket</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <span class="section-tag">HUBUNGI KAMI</span>
+                        <h2 class="section-title">Mulai Kerja Sama</h2>
+                    </div>
+                    <p class="contact-intro">
+                        Ingin mengundang Derau Kelabu untuk meramaikan panggung Anda? Atau ada proyek kolaborasi? Hubungi manajemen kami melalui formulir atau kontak langsung di bawah ini.
+                    </p>
+                    
+                    <div class="contact-details-list">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="contact-label">Email Booking & Kerja Sama</h4>
+                                <p class="contact-value"><a href="mailto:booking@deraukelabu.com">booking@deraukelabu.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="contact-label">Kontak Manajemen (WhatsApp)</h4>
+                                <p class="contact-value"><a href="https://wa.me/6281234567890" target="_blank">+62 812-3456-7890 (Hendra)</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="contact-label">Media Sosial</h4>
+                                <div class="social-links">
+                                    <a href="#" aria-label="Instagram">Instagram</a>
+                                    <a href="#" aria-label="YouTube">YouTube</a>
+                                    <a href="#" aria-label="Spotify">Spotify</a>
+                                    <a href="#" aria-label="Twitter">Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name" class="form-label">Nama Lengkap</label>
+                            <input type="text" id="contact-name" class="form-control" placeholder="Nama atau Instansi Anda" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email" class="form-label">Alamat Email</label>
+                            <input type="email" id="contact-email" class="form-control" placeholder="nama@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-subject" class="form-label">Keperluan</label>
+                            <select id="contact-subject" class="form-control" required>
+                                <option value="" disabled selected>Pilih Keperluan</option>
+                                <option value="Booking Band">Booking Jadwal Manggung</option>
+                                <option value="Kolaborasi">Kolaborasi / Sponsor</option>
+                                <option value="Media">Keperluan Media & Pers</option>
+                                <option value="Lainnya">Lainnya</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message" class="form-label">Pesan</label>
+                            <textarea id="contact-message" class="form-control" rows="5" placeholder="Detail penawaran, tanggal acara, lokasi, dll." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="btn-submit-contact">KIRIM PESAN</button>
+                    </form>
+                    <div class="form-status" id="form-status-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="assets/derau.jpeg" alt="Derau Kelabu Logo" class="logo-img">
+                DERAU<span>KELABU</span>
+            </div>
+            <p class="copyright">&copy; 2026 Derau Kelabu. Dibuat di Jakarta. Hak Cipta Dilindungi Undang-Undang.</p>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
